@@ -31,7 +31,7 @@ class Visualizer:
         self.const = Visualizer.PADDING_Y - self.slope*max(self.workingList)
 
     def randomize(self):
-        self.workingList = list(range(0,100))
+        self.workingList = list(range(0,400))
         random.shuffle(self.workingList)
         self.algorithim = random.choice( self.ALG )()   
         self.algColor  = []
